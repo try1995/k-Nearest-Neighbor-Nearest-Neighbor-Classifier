@@ -2,6 +2,7 @@ import numpy as np
 
 
 class NearestNeighbor:
+    # 最近邻
     def __init__(self, X, y):
         self.ytr = y
         self.Xtr = X
