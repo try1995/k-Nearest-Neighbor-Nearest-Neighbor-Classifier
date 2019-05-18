@@ -49,6 +49,9 @@ def test_k_nearest_neighbor_classifier(k, slices):
 
 
 if __name__ == '__main__':
+    '''300为训练个数，越大时间越长，
+    建议第一次跑30，3，5，6，7，9为k的值，将上面的注释去掉可以打印输出预测的标签和真实标签，
+    函数输出的是准确率'''
     N = 300
     test_k_nearest_neighbor_classifier(3, N)
     test_k_nearest_neighbor_classifier(5, N)
