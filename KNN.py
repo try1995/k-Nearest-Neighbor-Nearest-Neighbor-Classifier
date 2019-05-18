@@ -1,5 +1,5 @@
 from KNN_FOR_MINST_DATABSE.nearest_neighbor import *
-from KNN_FOR_MINST_DATABSE.untils import *
+from KNN_FOR_MINST_DATABSE.utils import *
 
 
 class KNearestNeighbor:
