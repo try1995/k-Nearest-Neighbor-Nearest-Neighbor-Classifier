@@ -2,7 +2,7 @@ import os
 import struct
 import numpy as np
 import matplotlib.pyplot as plt
-mnist_path = r"./MINST_DATABASE"
+mnist_path = r"./MINST"
 
 
 def load_mnist(path, kind='train'):
