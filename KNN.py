@@ -26,7 +26,6 @@ class KNearestNeighbor:
         return Ypred
 
 
-
 def test_nearest_neighbor_classifier(slices):
     images_matrix, labels_matrix = load_mnist(mnist_path)
     text_images_matrix, text_labels_matrix = load_mnist(mnist_path, kind='t10k')
